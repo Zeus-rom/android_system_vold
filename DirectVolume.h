@@ -93,6 +93,7 @@ private:
 #ifdef VOLD_DISC_HAS_MULTIPLE_MAJORS
     int getMajorNumberForBadPartition(int part_num);
 #endif
+    void doUnmount(int major, int minor);
 
 };
 
