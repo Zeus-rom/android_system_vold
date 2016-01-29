@@ -30,6 +30,7 @@ common_src_files := \
 	MoveTask.cpp \
 	Benchmark.cpp \
 	TrimTask.cpp \
+	secontext.cpp \
 	main.cpp
 
 common_c_includes := \
